@@ -12,6 +12,7 @@ public class Student {
     private String name;
     private String title;
     private String date_of_birth;
+    private int age;
 
     public int getId() {
         return id;
@@ -19,6 +20,13 @@ public class Student {
 
     public void setId(int id) {
         this.id = id;
+    }
+     public int getage() {
+        return age;
+    }
+
+    public void setage(int age) {
+        this.age = age;
     }
 
     public String getName() {
@@ -40,6 +48,7 @@ public class Student {
     public String getDate_of_birth() {
         return date_of_birth;
     }
+  
 
     public void setDate_of_birth(String date_of_birth) {
         this.date_of_birth = date_of_birth;
